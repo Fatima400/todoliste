@@ -1,0 +1,182 @@
+body {
+    margin: 5rem;
+
+
+}
+
+:root {
+  --standercolor:   rgba(255, 47, 144, 0.9);
+  --secoundcolor:white;
+  --shadowcolor:rgba(128, 128, 128, 0.361);
+}
+.nav{
+  height:400px;
+  width: 100%;
+  padding: 0px;
+  background-color: var(--standercolor);
+  border-radius: 20px;
+
+  
+}
+.content1{
+  height:400px ;
+  width:50% ;
+  border-radius: 10px;
+  margin-top: -150px;
+  background-color: var(--secoundcolor);
+margin-left: 25%;
+box-shadow: 10px 10px rgba(128, 128, 128, 0.361);
+}
+#new-task-form{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+header {
+  min-width: 80%;
+  /* border: 1px solid pink; */
+}
+main {
+  min-width: 80%;
+  /* border: 1px solid pink; */
+}
+#new-task-form {
+  display:flex;
+  justify-content:space-around;
+   
+  
+  
+}
+header h1{
+  padding-left: 100px;
+  padding-top: 50px;
+  font-size: 50px;
+
+}
+#new-task-input {
+  margin-top: 50px;
+  width: 80%;
+  height:100px;
+  border-radius: 10px;
+  font-size:30px ;
+  border-color: var(--shadowcolor);
+}
+#new-task-submit{
+  margin-top: 50px;
+  width: 150px;
+  height:100px;
+
+  background-color: var(--standercolor);
+  border-color: var(--standercolor);
+  color:var(--secoundcolor);
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+
+/* here the generated divs */
+
+
+  
+
+
+
+
+
+
+.content2{
+  margin-top: 50px;
+
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.content2  form #new-task-input{
+  margin-top: 50px;
+  width: 300px;
+  height:100px;
+  border-radius: 10px;
+  font-size:30px ;
+  border-color: var(--shadowcolor);
+
+}
+
+.box{
+  border: 1px solid var(--shadowcolor);
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 25%;
+
+}
+.task{
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+
+}
+
+.task-list{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: column;
+  align-items: stretch;
+ 
+  border-bottom: 2px solid var(--shadowcolor);
+ 
+  display: flex;
+  justify-content: space-around;
+ 
+  flex-direction: column;
+  
+}
+
+.tasks{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+}
+
+
+.text{
+  border-radius: 10px;
+  font-size:30px ;
+  border-color: var(--shadowcolor);
+  
+  
+  border-radius: 10px;
+ width: 1000px;
+  height: 100px;
+
+}
+.actions{
+  
+
+  display: flex;
+  flex-direction: row;
+ 
+  gap: 50px;
+}
+
+
+
+button
+{
+  background-color: var(--secoundcolor);
+  color: var(--standercolor);
+  border: 1px solid var(--secoundcolor);
+
+  font-size:50px;
+  
+}
+
+
+.edit{
+  font-size: 60px;
+}
